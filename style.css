@@ -1,0 +1,463 @@
+header
+{
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 2px;
+    background: linear-gradient(270deg, #745ECE 0%, rgba(105, 72, 237, 0.41) 47.4%, #5E63C8 82.29%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+body
+{
+    background-color: #E5E5E5;
+}
+
+.logo
+{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    left: 100px;
+    top: 10px;
+    background: url("./Assets/Logo.png");
+    mix-blend-mode: normal;
+    border-radius: 2px;
+}
+
+.logoBusqueda
+{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    left: 17.86%;
+    right: 17.86%;
+    top: 10.64%;
+    bottom: 12.77%;
+    background: url("Assets/buscar.png");
+}
+.fav
+{
+    position: absolute;
+    width: 44px;
+    height: 40px;
+    left: 1375px;
+    top: 20px;
+    border: none;
+    box-sizing: border-box;
+    background: url("./Assets/fav.png");
+}
+
+.contenedorBusqueda
+{
+    position: absolute;
+    width: 892px;
+    height: 47px;
+    left: 448px;
+    top: 20px;
+    background: #FFFFFF;
+}
+
+.botonBusqueda
+{
+    position: absolute;
+    width: 56px;
+    height: 47px;
+    left: 836px;
+    background: #E5E5E5;
+    border: 1px solid #C6C2C2;
+    box-sizing: border-box;
+}
+
+.barraBusqueda
+{
+    position: absolute;
+    width: 792px;
+    height: 30px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    border:none;
+    margin-top: 9px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 91px;
+}
+.cajaProd
+{
+    position: relative;
+    width: 1240px;
+    height: 221px;
+    left: 100px;
+    top: 159px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+.img
+{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 44px;
+    top: 30px;
+    border-radius: 15px;
+}
+.precio
+{
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    left: 348px;
+    top: 30px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.tituloProd
+{
+    position: absolute;
+    width: 500px;
+    height: 35px;
+    left: 348px;
+    top: 112px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+}
+.localizacion
+{
+    position: absolute;
+    width: 150px;
+    height: 35px;
+    left: 1011px;
+    top: 30px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.envioGratis
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 498px;
+    top: 34px;
+    background: url("./Assets/free.png");
+}
+
+.cartaDetalle
+{
+    position: absolute;
+    width: 1240px;
+    height: 852px;
+    left: 100px;
+    top: 158px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+.breadCrumb
+{
+    position: absolute;
+    width: 520px;
+    height: 32px;
+    left: 99px;
+    top: 114px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    
+    color: rgba(0, 0, 0, 0.67);
+}
+.imgDetalle
+{
+    position: absolute;
+    width: 563px;
+    height: 520px;
+    left: 50px;
+    top: 54px;
+    border-radius: 15px;
+}
+.estadoDetalle
+{
+    position: absolute;
+    width: 312px;
+    height: 35px;
+    left: 878px;
+    top: 54px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.tituloDetalle
+{
+    position: absolute;
+    width: 312px;
+    height: 31px;
+    left: 878px;
+    top: 100px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.precioDetalle
+{
+    position: absolute;
+    width: 312px;
+    height: 33px;
+    left: 878px;
+    top: 185px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+.descripcionTitDetalle
+{
+    position: absolute;
+    width: 312px;
+    height: 31px;
+    left: 50px;
+    top: 597px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+.descripcionDetalle
+{
+    position: absolute;
+    width: 828px;
+    height: 170px;
+    left: 50px;
+    top: 651px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    color: #B8ACAC;
+}
+.btnComprar
+{
+    position: absolute;
+    width: 312px;
+    height: 51px;
+    left: 878px;
+    top: 258px;
+    border: none;
+    background: #C968CB;
+    border-radius: 20px;
+}
+.btnFav
+{
+    position: absolute;
+    width: 312px;
+    height: 51px;
+    left: 878px;
+    top: 327px;
+    border: none;
+    background: #8C86D7;
+    border-radius: 20px;
+}
+.txtBut
+{
+    position: absolute;
+    width: 236px;
+    height: 31px;
+    left: 35px;
+    top: 7px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+.favoritos
+{
+    position: absolute;
+    width: 312px;
+    height: 31px;
+    left: 100px;
+    top: 104px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #000000;
+}
+.cajaElim
+{
+    position: relative;
+    width: 1240px;
+    height: 89px;
+    left: 100px;
+    top: 163px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+}
+.check
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 40px;
+    top: 30px;
+    background-color: #C4C4C4;
+    color : #c4c4c4;
+    border: none;
+}
+.btnBorrar
+{
+    position: absolute;
+    width: 200px;
+    height: 51px;
+    left: 100px;
+    top: 15px;
+    background: #E1677D;
+    border-radius: 20px;
+    border : none;
+}
+.btnBorrar[disabled]{
+
+  background: #ECE9E9;
+}
+
+.txtBorrar
+{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    top: 14px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.checkElem
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 40px;
+    top: 92px;
+    background: #C4C4C4;
+}
+.imgFav
+{
+    position: absolute;
+    width: 180px;
+    height: 180px;  
+    left: 100px;
+    top: 20px;
+    border-radius: 15px;
+}
+.btnVerFav
+{
+    position: absolute;
+    width: 200px;
+    height: 51px;
+    left: 984px;
+    top: 67px;
+    background: #C968CB;
+    border-radius: 20px;
+    border:none;
+}
+
+.modal
+{
+    position: absolute;
+    width: 578px;
+    height: 364px;
+    left: 486px;
+    top: 359px;
+    background: #FFFFFF;
+    border: 1px solid #C6C2C2;
+    box-sizing: border-box;
+}
+
+.tituloModal
+{
+    position: absolute;
+    width: 312px;
+    height: 31px;
+    left: 130px;
+    top: 60px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    
+}
+.carritoModal
+{
+    position: absolute;
+width: 312px;
+height: 51px;
+left: 130px;
+top: 176px;
+
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+
+color: #000000;
+}
+.btnModal
+{
+    position: absolute;
+    width: 145px;
+    height: 51px;
+    left: 380px;
+    top: 250px;
+
+    background: #8C86D7;
+    border-radius: 20px;
+}
+::placeholder {
+    color: #D5C9C9;
+  }
