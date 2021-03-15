@@ -301,6 +301,7 @@ function deleteSelected() {
   renderFavoritos();
 }
 
+/* eslint no-unused-vars: "off" */
 function filtrarCategoria() {
   let valores = document.getElementById("categoria").value;
   filtrado = dataTot["items"].filter((func) => {
